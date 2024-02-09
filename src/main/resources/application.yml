@@ -10,9 +10,9 @@ spring:
     url: jdbc:mysql://localhost:3307/loans-db
     username: root
     password: root
-    sql:
-      init:
-        mode: always
+  sql:
+    init:
+      mode: always
   jpa:
     show-sql: true
   config:
