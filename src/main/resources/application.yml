@@ -48,6 +48,6 @@ eureka:
 
 info:
   app:
-    name: accounts-service
-    description: EazyBank Accounts Application
+    name: loans-service
+    description: EazyBank Loans Application
     version: 1.0.0
