@@ -41,7 +41,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-bus-amqp</artifactId>
+			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
 
 		<dependency>
@@ -86,7 +86,7 @@
 				<version>3.4.0</version>
 				<configuration>
 					<to>
-						<image>asocarras/${project.artifactId}:s6</image>
+						<image>asocarras/${project.artifactId}:s8</image>
 					</to>
 				</configuration>
 			</plugin>
