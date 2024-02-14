@@ -51,3 +51,7 @@ info:
     name: loans-service
     description: EazyBank Loans Application
     version: 1.0.0
+
+logging:
+  level:
+    root: info
