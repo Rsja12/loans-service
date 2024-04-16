@@ -134,7 +134,8 @@ public class LoansController {
         }
     }
 
-    @Operation(summary = "Get Build information", description = "Get Build information that is deployed into loans microservice")
+    @Operation(summary = "Get Build information",
+            description = "Get Build information that is deployed into loans microservice")
     @ApiResponses({
             @ApiResponse(responseCode = "200", description = "HTTP Status OK"),
             @ApiResponse(responseCode = "500",
@@ -148,7 +149,8 @@ public class LoansController {
                 .body(buildVersion);
     }
 
-    @Operation(summary = "Get Java version", description = "Get Java versions details that is installed into loans microservice")
+    @Operation(summary = "Get Java version",
+            description = "Get Java versions details that is installed into loans microservice")
     @ApiResponses({
             @ApiResponse(responseCode = "200", description = "HTTP Status OK"),
             @ApiResponse(responseCode = "500",
@@ -162,7 +164,8 @@ public class LoansController {
                 .body(environment.getProperty("JAVA_HOME"));
     }
 
-    @Operation(summary = "Get Contact Info", description = "Contact Info details that can be reached out in case of any issues")
+    @Operation(summary = "Get Contact Info",
+            description = "Contact Info details that can be reached out in case of any issues")
     @ApiResponses({
             @ApiResponse(responseCode = "200", description = "OK"),
             @ApiResponse(responseCode = "500",
